@@ -99,3 +99,18 @@ git push [地址别名] [提交分支名（一般为master）]
 git clone [拉取资源地址]：将资源拉取到当前的文件夹
 
 ![](..\GitNotes\笔记的图\2021-05-30.png)
+
+合作：
+
+邀请：仓库的setting中collaborators搜索邀请人员后获得链接发送给被邀请人员--->接受邀请
+
+git fetch origin master:从远程下载好，但不对本地内容做修改。
+
+git checkout origin/master : 对下载内容的主干进行查看
+
+git merge oringin/master: 将下载的同本地的合并
+
+git pull = fetch+merge
+
+git pull origin master
+
